@@ -1,0 +1,15 @@
+name = "insight-hunter"
+type = "webpack"
+
+account_id = "18c8e61a3669253dcfd0c7eec6be36a3"
+workers_dev = true
+compatibility_date = "2025-09-06"
+
+[build]
+command = "npm run build"
+[build.upload]
+format = "service-worker"
+
+[dev]
+local_protocol = "http"
+local_port = 8787
