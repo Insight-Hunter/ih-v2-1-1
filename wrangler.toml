@@ -13,3 +13,7 @@ format = "service-worker"
 [dev]
 local_protocol = "http"
 local_port = 8787
+main = "src/index.ts"
+
+[assets]
+directorty = "./dist"
