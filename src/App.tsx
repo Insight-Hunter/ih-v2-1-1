@@ -1,4 +1,7 @@
 import React from 'react';
+import Onboarding from './Onboarding';
+
+const App: React.FC = () => <Onboarding />;
 
 const App: React.FC = () => {
   return (
